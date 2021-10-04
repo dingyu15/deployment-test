@@ -8,10 +8,10 @@ let config = {
 
 switch(env.toUpperCase()) {
   case 'STAGE':
-    config.baseURL = 'https://stage.dingyu15.github.io/deployment-test/';
+    config.baseURL = 'https://stage.dy.github.io/deployment-test/';
     break;
   case 'PRODUCTION':
-    config.baseURL = 'https://dingyu15.github.io/deployment-test/';
+    config.baseURL = 'https://dy.github.io/deployment-test/';
     break;
   default:
     config.baseURL = null;
