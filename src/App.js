@@ -17,8 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <h1>Base URL: {config.baseURL}</h1>
         </a>
+        <h1>Base URL: {config.baseURL}</h1>
       </header>
     </div>
   );
