@@ -11,7 +11,8 @@ switch(env.toUpperCase()) {
     config.baseURL = 'https://stage.dy.github.io/deployment-test/';
     break;
   case 'PRODUCTION':
-    config.baseURL = 'https://dy.github.io/deployment-test/';
+    //config.baseURL = 'https://dy.github.io/deployment-test/';
+    config.baseURL = 'https://www.google.com/'
     break;
   default:
     config.baseURL = null;
